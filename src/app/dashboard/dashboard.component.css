@@ -7,7 +7,7 @@ h2 {
 .heroes-menu {
   padding: 0;
   margin: auto;
-  max-width: 1000px;
+  max-width: 1020px;
 
   /* flexbox */
   display: flex;
@@ -36,6 +36,21 @@ a {
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
+}
+
+.circle {
+  /* background: #e3e3e3; */
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  /* color: #6e6e6e; */
+  border: 3px solid crimson;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 40px;
+  margin-right: 5px;
+  text-align: center;
+  width: 40px;
 }
 
 @media (min-width: 600px) {

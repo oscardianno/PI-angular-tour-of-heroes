@@ -2,6 +2,7 @@
 <div class="heroes-menu">
   <a *ngFor="let hero of heroes" routerLink="/detail/{{ hero.id }}">
     {{ hero.name }}
+    <span class="circle">{{ hero.points }}</span>
   </a>
 </div>
 
